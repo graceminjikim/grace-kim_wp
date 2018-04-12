@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <style>
+
+
+
+    section{ display: flex;
+      flex-direction: row;
+    }
+
+    div {
+      height: 400px; width: 200px;
+      flex: 200px;
+    }
+
+    .yellow{
+      background: yellow;
+      justify-content: center;
+    }
+
+    .green
+    {background: green;
+      justify-content: flex-start;
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div> <ul class="yellow"> </ul>
+      </div>
+
+
+    </section>
+
+  </body>
+
+</html>
