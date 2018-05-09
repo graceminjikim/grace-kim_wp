@@ -13,10 +13,10 @@ https://graceminjikim.github.io/grace-kim_wp/Week1/digitalbits/pen.html \
 
 Assignment 2 \
 
-
+https://graceminjikim.github.io/grace-kim_wp/Week2/banner.html \
+https://graceminjikim.github.io/grace-kim_wp/Week2/banner2.html \
 
 Assignment 3 \
-
 
 https://graceminjikim.github.io/grace-kim_wp/Week3/circle.html
 
