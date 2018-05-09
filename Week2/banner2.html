@@ -1,10 +1,201 @@
 <html>
+
 <head>
+  <title> Banner 2 </title>
+
+
+
 <style>
+
+body{
+  background: linear-gradient(pink, blue);
+}
+
+.largecontainer{
+  z-index: 2;
+  display: grid;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(5,5fr);
+  grid-gap: 3em;
+}
+
+.largecontainer>div{
+  background: linear-gradient(blue,pink);
+  width:10px;
+  height:5000px;
+  border-radius: 20%;
+  border-width: medium;
+  border-color: yellow;
+  border-style: dotted;
+}
+
+
+.rectangle{
+    right:500;
+    width:20px;
+    height:5000px;
+    background: red;
+}
+
+  .container{
+    right: 500px;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 3em;
+    z-index: 1;
+  }
+
+  .smallcontainer{
+
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: 50px;
+    z-index: 1;
+
+  }
+
+  .container>div{
+    background:yellow;
+    border-radius: 100%;
+    border-color: pink;
+    border-width: 20px;
+    padding:1em;
+    border-style: outset;
+
+  }
+
+
+  .container1{
+    right: 200px;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 1em
+  }
+
+  .smallcontainer1{
+
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: 50px;
+
+  }
+
+  .container1>div{
+    background:pink;
+    mix-blend-mode: color-dodge;
+    border-radius: 100%;
+    border-color: red;
+    border-width: 20px;
+    padding:1em;
+    border-style: outset;
+
+  }
+
+
+
+
 </style>
 </head>
 
+
 <body>
+
+  <div class="largecontainer">
+    <
+
+  <div class="container">
+
+<div class="small container">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+  <div class="container1">
+<div class="small container1">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+  <div class="container">
+<div class="small container">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+  <div class="container1">
+<div class="small container1">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+  <div class="container">
+<div class="small container">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+
+  <div class="container1">
+<div class="small container1">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+  <div class="container">
+<div class="small container">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+  <div class="container1">
+<div class="small container1">
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+  <div></div>
+  <div></div>
+</div>
+  </div>
+
+
+
+
 </body>
 
 </html>
